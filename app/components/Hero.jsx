@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-content flex-col lg:flex-row">
-        <img src="/logo/3.jpg" className="rounded-lg shadow-2xl w-2xl" />
+        <img src="/logo/3b.png" className="w-2xl scale-x-[-1]" />
         <div>
           <h1 className="text-5xl font-bold">Steelhead Electric</h1>
           <p className="py-6">
@@ -12,7 +12,7 @@ const Hero = () => {
             expertise. From simple repairs to complex installations, we’re the
             trusted partner you need.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <button className="btn btn-primary">Book an Appointment</button>
         </div>
       </div>
     </div>
