@@ -1,10 +1,12 @@
-import Image from "next/image";
-import Hero from "./components/Hero";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <div>
-      <Hero />
+    <div className="flex">
+      <div className="w-1/2">
+        <Hero />
+      </div>
+      <div className="w-1/2">Form</div>
     </div>
   );
 }
